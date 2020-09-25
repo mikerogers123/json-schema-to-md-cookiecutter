@@ -1,0 +1,6 @@
+{
+    "project_name": "Documentation Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "documentation_purpose": "json_objects",
+    "project_description": "Documentation for {{ cookiecutter.documentation_purpose }} defined using JSON schema."
+}

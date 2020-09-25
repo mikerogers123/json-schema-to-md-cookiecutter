@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "https://example.com/schemas/simple",
+    "title": "Simple",
+    "description": "This is a *very* simple example of a JSON schema. There is only one property.",
+    "type": "object",
+    "properties": {
+      "id": {
+          "type": "string",
+          "format": "uri",
+          "description": "A unique identifier given to every addressable thing.",
+          "version": "1.0.0",
+          "testProperty": "test"
+      }
+  }
+}
