@@ -19,6 +19,4 @@ A number of prompts will request extra information for the project:
 * `project_description` will be s pre-populated sentence describing the project using the `documentation_purpose`
 * `documentation_purpose` is what you are generating documentation for (e.g. events, data models)
 
-After generating the project, the post-generation script will run a Windows `.bat` script to initialise a Git repository.
-
-See `README.md` in generated project for further information on application lifecycle.
+See `README.md` in generated project for further information on then application.
